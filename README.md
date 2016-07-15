@@ -1,28 +1,50 @@
 
-###Vue源码学习  Vue.js v1.0.21
 
-****
-安装
-命令：npm install
+##Vue source code analysis 1.0.25
 
-######提供两种打包方案
+> 
+> Based on es6 rewrite the parts [vuejs] (http://vuejs.org) source is analyzed
+> 
+> Synchronous blog source code analysis
+> 
 
-* gulp rollup
-* gulp webpack
+##Install
+### Code block
+``` python
+* npm install
+```
 
-****
-### 分析
 
-<ol>
-<li>demo-列表渲染</li>
-<li>demo-异步更新队列</li>
-<li>demo-指令解析</li>
-<li>demo-节点编译</li>
-<li>demo-插值表达式与事件机制</li>
-<li>demo-数据观察</li>
-<li>demz-缓存</li>
-<li>demo-节点编译</li> 
-<li>demo-观察数组</li> 
-<li>demo-计算属性</li> 
-</ol>
-待更新…
+##Dev
+A basic demo,Using XXT named simulation framework implementations
+### Code block
+``` python
+* npm run dev
+* http://localhost:8000
+```
+
+
+##Build
+All the analysis code files in the demo directory, the source file is es6 code, so it must pass a rollup, compiled by naming the build a key
+### Code block
+``` python
+* npm run build
+```
+
+
+
+###Directory
+> *  Observed data
+> *  Cache
+> *  Asynchronous update queue
+> *  Apply colours to a drawing list
+> *  Parse directives
+> *  Node to compile
+> *  Differential expression and is the event 
+> *  Observed array
+> *  Attribute to monitor
+
+Please Waiting for the update
+
+
+
